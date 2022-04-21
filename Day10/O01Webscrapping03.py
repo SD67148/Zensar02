@@ -20,8 +20,8 @@ for i in range(1, 5):
             pTbl.add_row([prod.text, price.text])
 
 
-    pTbl.align["product"] = "l"
-    pTbl.align["price"] = "r"
+    pTbl.align["product"] = "l"                          # left alighnment
+    pTbl.align["price"] = "r"                            # right alighnment
 
     print(pTbl)
 
